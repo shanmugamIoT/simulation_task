@@ -143,7 +143,7 @@ class DeliveryRobot(Node):
             next_table = self.current_deliveries[0]
             self.go_to_table(next_table)
         else:
-            self.return_home()
+            self.return_to_kitchen()
 
     def skip_table_delivery(self):
 
