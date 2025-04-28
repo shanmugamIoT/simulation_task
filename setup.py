@@ -23,6 +23,7 @@ setup(
                 'navigate_task_1 = robot_butler.butler_task1:main',
                 'navigate_task_2 = robot_butler.butler_task2:main',
                 'navigate_task_3 = robot_butler.butler_task3:main', 
+                'navigate_task_4 = robot_butler.butler_task4:main',
         ],
     },
 )
