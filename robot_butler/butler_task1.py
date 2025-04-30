@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseStamped
@@ -28,7 +29,7 @@ class DeliveryRobot(Node):
         
         # Define important locations (update with your actual coordinates)
         self.locations = {
-            'home': self.create_pose_stamped(0.0, 0.0, 0.0),
+            'home': self.create_pose_stamped(0.0, -0.0, 0.0),
             'kitchen': self.create_pose_stamped(2.35, 2.69, 1.57),
             'table_1': self.create_pose_stamped(6.92, 1.92, 1.68),
             'table_2': self.create_pose_stamped(6.75, 5.18, 1.57),
